@@ -58,8 +58,8 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-Hi *{}* here! Welcome to the jungle!
-!!!!!  WAIT  !!!!! I forget something to say Enjoy the jungle!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+⚡Hi *{}* here! Welcome to the jungle!
+⚡!!!!!  WAIT  !!!!! I forget something to say Enjoy the jungle!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 """
 
 
@@ -78,7 +78,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/511ad504656e712b88235.jpg"
+    img = "https://telegra.ph/file/37858a3b38dab63e91346.jpg"
 else:
   img = START_IMG    
     
